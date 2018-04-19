@@ -11,6 +11,10 @@ public class Employee {
         this.age = age;
     }
 
+    public String getSurname() {
+        return surname;
+    }
+
     public void setSurname(String surname) {
         this.surname = surname;
     }
@@ -25,10 +29,6 @@ public class Employee {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public int getAge() {
-        return age;
     }
 
     public void setAge(int age) {
