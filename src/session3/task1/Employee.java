@@ -19,6 +19,14 @@ public class Employee {
         this.surname = surname;
     }
 
+    public Employee(String name) {
+        this.name = name;
+    }
+
+    public Employee(int age) {
+        this.age = age;
+    }
+
     public String toString() {
         return "Name: " + name + ", Age: " + age;
     }
